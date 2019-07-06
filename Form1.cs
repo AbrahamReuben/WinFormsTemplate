@@ -25,6 +25,7 @@ namespace WinFormsTemplate
         {
             InitializeComponent();
 
+            // File to be placed in the same folder as the executable
             string filename = "test.txt";
 
             Thread MD5HashingThread = new Thread(() => ComputeMD5Hash(filename));
